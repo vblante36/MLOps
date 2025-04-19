@@ -1,0 +1,26 @@
+# System files
+.DS_Store
+
+# Metaflow outputs
+.metaflow/
+*.parquet
+
+# MLflow outputs
+mlruns/
+mlartifacts/
+
+# Local data
+heart.csv
+save_data/
+data/
+
+# GCP tools
+google-cloud-sdk/
+google-cloud-cli-*.tar.gz
+
+# Misc
+*.pyc
+__pycache__/
+app/
+FinePrint/
+metaflow-tools/
