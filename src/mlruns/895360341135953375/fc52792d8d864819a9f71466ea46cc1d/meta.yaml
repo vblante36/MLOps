@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/895360341135953375/fc52792d8d864819a9f71466ea46cc1d/artifacts
+end_time: 1745092802914
+entry_point_name: ''
+experiment_id: '895360341135953375'
+lifecycle_stage: active
+run_id: fc52792d8d864819a9f71466ea46cc1d
+run_name: bemused-shrike-15
+run_uuid: fc52792d8d864819a9f71466ea46cc1d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745092801094
+status: 3
+tags: []
+user_id: victoriablante

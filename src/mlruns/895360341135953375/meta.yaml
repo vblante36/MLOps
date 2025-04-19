@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/895360341135953375
+creation_time: 1745092800910
+experiment_id: '895360341135953375'
+last_update_time: 1745092800910
+lifecycle_stage: active
+name: Heart Model
