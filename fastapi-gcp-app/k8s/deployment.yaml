@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: reddit-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: reddit-app
+  template:
+    metadata:
+      labels:
+        app: reddit-app
+    spec:
+      containers:
+      - name: reddit-app
+        image: us-west1-docker.pkg.dev/mlops-lab9-2025/reddit-app-repo/reddit-app
+        ports:
+        - containerPort: 80
